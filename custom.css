@@ -16,7 +16,8 @@ $$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
 $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 \__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
 */
-.perksModalContentWrapper-3WBPxC{
+.perksModalContentWrapper-3WBPxC,
+.perksModalContentWrapper-3RHugb{
   background-image: var(--backgroundImage);
   opacity: var(--backgroundOpacity);
   background-position: var(--backgroundPosition);
@@ -60,7 +61,11 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .wrapper-2g4olo,
 .inspector-DFKXwB.inspector-2A2Chb,
 .welcomeCTAButtonOuter-3pJkMq.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F:hover,
-.footer-3naVBw{
+.footer-3naVBw,
+.popoutInfo-16MuYF,
+.ctaBar-Nhk8yY,
+.cardContent-1-5hym,
+.container-3XgAHv{
     background-color: var(--backgroundColor);
 }
 
@@ -84,7 +89,6 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .list-1uSVgu.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN,
 .container-2rzKKA,
 .list-1uSVgu,
-.scrollerInner-22scD4,
 .quotedChatMessage-PxNsZi .message-2CShn3.cozyMessage-1DWF9U.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz,
 .container-3i3IzO,
 .container-x8Y1ix,
@@ -114,7 +118,13 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .contextMenuNub-NuTZ_U.colorable-3rVGna.primaryDark-2UJt1G,
 .iconBadge-32fMme.iconBadge-1D5-9X.base-3IDx3L.baseShapeRound-3epLEv,
 .ShowSessions-list-item,
-.welcomeCTAButtonOuter-3pJkMq.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F{
+.welcomeCTAButtonOuter-3pJkMq.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F,
+.notice-5OG6bf,
+.carousel-2M5OVB div div,
+.perk-19D_HN,
+.base-2v-uc0.selectable-1MM9tu.selected-3H3-RC,
+.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyBetween-wAERV6.alignCenter-14kD11.noWrap-hBpHBz.folderHeader-2FpErk,
+.roleMemberList-ub4EsQ.thin-31rlnD.scrollerBase-_bVAAt{
     background-color: var(--backgroundCode) !important;
 }
 
@@ -158,14 +168,19 @@ canvas.minimap-decorations-layer{
 .wrapper-2vIMkT div:hover,
 .item-1OdjEX.labelContainer-2vJzYL.colorDefault-CDqZdO:hover,
 .focused-3qFvc8,
-.primaryButton-361sHl.gutter-3t0Erc.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeXlarge-2TyITf.grow-2sR_-F{
-    background: linear-gradient(90deg, var(--themeColor1), var(--themeColor2)) !important;
+.primaryButton-361sHl.gutter-3t0Erc.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeXlarge-2TyITf.grow-2sR_-F,
+.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeTiny-3y2SSK.grow-2sR_-F{
+    background-image: linear-gradient(90deg, var(--themeColor1), var(--themeColor2)) !important;
 }
 
 .button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F,
 .button-1EGGcP.buttonColor-3bP3fX.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F.button-1EGGcP[aria-label="Compartilhe sua tela"],
 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F{
     background: linear-gradient(90deg, var(--themeColor2), var(--themeColor1));
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F.button-1EGGcP:hover{
+  opacity: .8;
 }
 
 .button-3bklZh{
@@ -184,6 +199,10 @@ canvas.minimap-decorations-layer{
 .button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.buttonSize-dIiz43.grow-2sR_-F,
 .secondaryButton-rBY2Kw.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeXlarge-2TyITf.grow-2sR_-F{
     background: linear-gradient(90deg, var(--grey2), var(--grey1));
+}
+
+.button-f2h6uQ.lookFilled-yCfaCM.colorRed-rQXKgM.sizeTiny-3y2SSK.grow-2sR_-F{
+    background: linear-gradient(90deg, var(--red1), var(--red2));
 }
 
 .component-ifCTxY.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeSmall-wU2dO-.grow-2sR_-F{
@@ -255,7 +274,7 @@ canvas.minimap-decorations-layer{
 @property --x {
   syntax: '<percentage>';
   inherits: false;
-  initial-value: 90%;
+  initial-value: 10%;
 }
 
 @property --y{
@@ -278,6 +297,24 @@ canvas.minimap-decorations-layer{
   background-image: linear-gradient(45deg, var(--themeColor1), var(--themeColor2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.flowerStarContainer-1QeD-L.iconBackgroundTierNone-3M21Zn svg path{
+  color: rgba(234, 0, 255, 0.199);
+}
+.boostedGuildIconGem-u5aHBL.iconTierNone-1iHKfJ path{
+  fill: rgb(95, 95, 95);
+}
+
+.flowerStarContainer-1QeD-L.iconBackgroundTierOne-1S68CI,
+.flowerStarContainer-1QeD-L.iconBackgroundTierTwo-2XoNXD,
+.flowerStarContainer-1QeD-L.iconBackgroundTierThree-2hfNBO{
+  color: rgb(234, 0, 255);
+}
+.boostedGuildIconGem-u5aHBL.iconTierThree-n2n0gX path,
+.boostedGuildTierIconWithVisibleBanner-3XawD_.iconTierTwo-3MBPlM path,
+.boostedGuildIconGem-u5aHBL.iconTierOne-2h4ba6 path{
+  fill: rgb(255, 255, 255);
 }
 
 /* editado /\ */
