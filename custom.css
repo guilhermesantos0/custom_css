@@ -42,6 +42,10 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
     border: 1px solid var(--themeColor1);
 }
 
+.sourceThumbnail-ERDcZE{
+  background-repeat: initial;
+}
+
 .body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt,
 .guildHeader-1EPPBS,
 .select-1Ia3hD.paymentDropdown-1q1lBC.lookFilled-1GseHa,
@@ -65,7 +69,12 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .popoutInfo-16MuYF,
 .ctaBar-Nhk8yY,
 .cardContent-1-5hym,
-.container-3XgAHv{
+.container-3XgAHv,
+.adminWarning-2YLvNb,
+.body-2WIpo7,
+.searchBar-jGtisZ,
+.inner-1lPVFp.accountBtnInner-3ttD-i,
+.option-1O-Hwt:hover{
     background-color: var(--backgroundColor);
 }
 
@@ -124,7 +133,18 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .perk-19D_HN,
 .base-2v-uc0.selectable-1MM9tu.selected-3H3-RC,
 .flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyBetween-wAERV6.alignCenter-14kD11.noWrap-hBpHBz.folderHeader-2FpErk,
-.roleMemberList-ub4EsQ.thin-31rlnD.scrollerBase-_bVAAt{
+.roleMemberList-ub4EsQ.thin-31rlnD.scrollerBase-_bVAAt,
+.item-4m-12I,
+.cameraWrapper-3a7Ngv,
+.accountList-Wii_T5,
+.connectionHeader-Ixbb1s,
+.connectionOptionsWrapper-3aVWcp,
+.codeRedemptionRedirect-2hYMSQ.card-16VQ8C,
+.previewMessage-2g_aBv,
+.option-1O-Hwt,
+.skuCard-2Fnwet.promotionCard-mo7ClH,
+.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11.activeGame-1OdxzI.notDetected-M3Ghh2,
+.perks-2IIbWQ{
     background-color: var(--backgroundCode) !important;
 }
 
@@ -150,7 +170,9 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .searchResult-O9NDji,
 .colorHeaderPrimary-jN_yGr.size16-rrJ6ag.channelName-3w2Y3c,
 .minimap-decorations-layer,
-canvas.minimap-decorations-layer{
+canvas.minimap-decorations-layer,
+.connection-YOVI9j.marginBottom8-emkd0_,
+.inputDefault-3FGxgL.input-2g-os5.input-1bmui3.inputText-30IjXy{
     background-color: transparent;
 }
 
@@ -169,7 +191,9 @@ canvas.minimap-decorations-layer{
 .item-1OdjEX.labelContainer-2vJzYL.colorDefault-CDqZdO:hover,
 .focused-3qFvc8,
 .primaryButton-361sHl.gutter-3t0Erc.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeXlarge-2TyITf.grow-2sR_-F,
-.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeTiny-3y2SSK.grow-2sR_-F{
+.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeTiny-3y2SSK.grow-2sR_-F,
+.progressBar-2yl2pi.bar-H6j3_Q,
+.micTestButton-3bMlCM.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-{
     background-image: linear-gradient(90deg, var(--themeColor1), var(--themeColor2)) !important;
 }
 
@@ -183,8 +207,9 @@ canvas.minimap-decorations-layer{
   opacity: .8;
 }
 
-.button-3bklZh{
-  color: white;
+.button-3bklZh,
+.item-3mHhwr.item-3XjbnG.themed-2-lozF{
+  color: white !important;
 }
 
 .button-3bklZh.dangerous-Y36ifs[aria-label="Excluir"],
@@ -205,7 +230,8 @@ canvas.minimap-decorations-layer{
     background: linear-gradient(90deg, var(--red1), var(--red2));
 }
 
-.component-ifCTxY.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeSmall-wU2dO-.grow-2sR_-F{
+.component-ifCTxY.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeSmall-wU2dO-.grow-2sR_-F,
+.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.buttonSize-3QlBTl.grow-2sR_-F{
     background: linear-gradient(90deg, var(--green1), var(--green2));
     border: 2px solid green;
 }
@@ -254,8 +280,16 @@ canvas.minimap-decorations-layer{
   background: linear-gradient(90deg, var(--red1), var(--red2))
 }
 
+.shinyButton-2Q9MDB.button-1U79Hubutton-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeMedium-2bFIHr.grow-2sR_-F{
+  background: linear-gradient(90deg, var(--green1), var(--green2));
+}
+
 .ephemeral-2nDdnn:before, .mentioned-Tre-dv:before, .replying-eZ7p5z:before{
-  background: linear-gradient(180deg, var(--themeColor1), var(--themeColor2));
+  background: linear-gradient(90deg, var(--themeColor1), var(--themeColor2));
+}
+
+.button-1U79Hu.button-f2h6uQlookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F{
+  background: linear-gradient(90deg,var(--grey1), var(--grey2)) !important;
 }
 
 .message-2CShn3.cozyMessage-1DWF9U.mentioned-Tre-dv.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasReply-2Cr4KE,
@@ -315,6 +349,47 @@ canvas.minimap-decorations-layer{
 .boostedGuildTierIconWithVisibleBanner-3XawD_.iconTierTwo-3MBPlM path,
 .boostedGuildIconGem-u5aHBL.iconTierOne-2h4ba6 path{
   fill: rgb(255, 255, 255);
+}
+
+.item-4m-12.selected97jieYB,
+.selected-3jieYB{
+  border: 1px solid var(--themeColor1);
+}
+
+.deny-1GO6vI svg path{
+  color: red;
+}
+
+.allow-1h61-Z svg path{
+  color: rgb(7, 253, 7);
+}
+
+.role-2TIOKu.flex-3BkGQD.alignCenter-14kD11{
+  background-color: var(--backgroundCode);
+  border: 1px solid var(--themeColor1);
+}
+
+.topLeft-2inNCc.option-1QI4c9:hover,
+.topRight-wM_dsL.option-1QI4c9:hover,
+.bottomLeft-1GrX76.option-1QI4c9:hover,
+.bottomRight-2N4MaX.option-1QI4c9:hover{
+  background-color: var(--backgroundColor );
+}
+
+.option-1QI4c9{
+  background-color: var(--backgroundCode);
+}
+
+.selected-18Wszc.topLeft-2inNCc.option-1QI4c9,
+.selected-18Wszc.topRight-wM_dsL.option-1QI4c9,
+.selected-18Wszc.bottomLeft-1GrX76.option-1QI4c9,
+.selected-18Wszc.bottomRight-2N4MaX.option-1QI4c9{
+  border: 1px solid var(--themeColor1);
+  background-color: var(--backgroundCode);
+}
+
+.disabledIcon-1rpL82:hover{
+  color: red;
 }
 
 /* editado /\ */
