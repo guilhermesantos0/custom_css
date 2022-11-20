@@ -84,11 +84,13 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .overviewStep-1CG3Ov.selected-2HDz3F .defaultColor-24IHKz.text-sm-normal-3Zj3Iv.stepIndex-Kqaht-,
 .flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyBetween-wAERV6.alignStretch-Uwowzr.noWrap-hBpHBz.guildSidebar-UHnQqs,
 .checklistHeader-3liG7E.desaturate-_Twf3u,
-.header-Wl8ec-{
+.header-Wl8ec-,
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr:hover,
+.divider-AZrXIA,
+.contents-3ca1mk.buttonInner-3aRbcx,
+.feedItemHeader-txJq98{
     background-color: var(--backgroundColor) !important;
 }
-
-
 
 .infoScroller-1QMpon.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN,
 .topSection-13QKHs,
@@ -188,8 +190,26 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .content-2hZxGK.modalContent--XtfCV.thin-31rlnD.scrollerBase-_bVAAt,
 .error-3AuLwi.notEnoughMembersError-3-VD0N.backgroundAccent-2YeFtZ,
 .developerPortalCtaWrapper-2PniQs,
-.checklistItem-1gWPPD{
+.checklistItem-1gWPPD,
+.container-3YcgdM,
+.container-2Hi7Km,
+.container-xwOzwi,
+.clickableTarget-38GHFo,
+.communityInfoPill-2Mll66,
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY > .userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi,
+.container--8P6Tr.existingSubscriberSpacing-3auAAB.card-16VQ8C,
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.selected-1-Z6gm{
     background-color: var(--backgroundCode) !important;
+}
+
+.userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY,
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY{
+  background: var(--backgroundCode);
+}
+
+.body-_QAKrE,
+.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi{
+  background: var(--backgroundColor);
 }
 
 .card-2L21B2.cardPrimaryEditable-2mz_3i.card-16VQ8C .listContainer-_t9khV{
@@ -252,6 +272,24 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
   background-color: #111418 !important;
 }
 
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr:hover{
+  border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, transparent 20%, var(--themeColor1), var(--themeColor2), transparent 80%) 30;
+}
+
+.contents-3ca1mk.buttonInner-3aRbcx.active-OdlCV-{
+  color: var(--themeColor2);
+}
+
+.contents-3ca1mk.buttonInner-3aRbcx.active-OdlCV-:hover{
+  color: var(--themeColor1);
+  border: none;
+}
+
+.userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark{
+  background: var(--backgroundColor);
+}
+
 .bodyInnerWrapper-2bQs1k,
 .root-jbEB5E.flex-3BkGQD.wrap-7NZuTn.rolesList-3uZoaa,
 .bodyTitle-2Az3VQ.fontDisplay-3Gtuks.base-21yXnu.size12-oc4dx4.muted-eZM05q.uppercase-2unHJn,
@@ -277,8 +315,18 @@ canvas.minimap-decorations-layer,
 .modal-2TOYtq,
 .formFieldWrapper-2LV3S6.wrapperBase-dMTjVZ,
 .checklistContainer-12xGp5,
-.container-13pE3E.checklist-Asy_56{
-    background-color: transparent;
+.container-13pE3E.checklist-Asy_56,
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr,
+.card-3x20HF{
+  background-color: transparent !important;
+}
+.roleMention-11Aaqi.desaturate-_Twf3u.wrapper-1ZcZW-.mention{
+  background-color: transparent !important;
+}
+
+.roleMention-11Aaqi.desaturate-_Twf3u.wrapper-1ZcZW-.mention:hover{
+  cursor: pointer;
+  color: var(--themeColor1) !important;
 }
 
 .checklistItem-1gWPPD{
@@ -334,7 +382,8 @@ canvas.minimap-decorations-layer,
 .text-md-normal-304U3g.subtitle-1cc8Nz,
 .text-md-normal-304U3g.subtitle-bIoUVX,
 .text-xs-normal-3SiVjE.guidelines-FvqqF2,
-.colorStandard-1Xxp1s.size14-k_3Hy4.description-30xx7u.formText-2ngGjI.modeDefault-2fEh7a{
+.colorStandard-1Xxp1s.size14-k_3Hy4.description-30xx7u.formText-2ngGjI.modeDefault-2fEh7a,
+.roleName-2ZJJYR{
   color: white !important;
 }
 
@@ -355,7 +404,8 @@ canvas.minimap-decorations-layer,
 .secondaryButton-rBY2Kw.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeXlarge-2TyITf.grow-2sR_-F,
 .button-3M8h3F.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMin-DfpWCE.grow-2sR_-F,
 .button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.grow-2sR_-F,
-.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F{
+.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F,
+.applicationInstallButton-1co9qK.button-f2h6uQ.lookFilled-yCfaCM.colorTransparent-13Bvvi.sizeSmall-wU2dO-.grow-2sR_-F{
     background: linear-gradient(90deg, var(--grey2), var(--grey1));
   }
   
@@ -530,9 +580,54 @@ canvas.minimap-decorations-layer,
   color: rgb(7, 253, 7);
 }
 
-.role-2TIOKu.flex-3BkGQD.alignCenter-14kD11{
-  background-color: var(--backgroundCode);
+:root{
+  --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
+
+  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
+}
+.role-2TIOKu {
+  transform: translate(0);
+  border: 0;
+  border-radius: var(--roles-roundness-calc);
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+  margin: 0;
+  left: unset;
+  transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT{position: static}
+.role-2TIOKu .roleCircle-3K9O3d:before {
+  content: '';
+  top: 0;left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  background: inherit;
+  border-radius: var(--roles-roundness-calc);
+  border: 1px solid transparent;
+  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.addButton-1_dZYu.actionButton-1YKTU0.role-2TIOKu.flex-3BkGQD.alignCenter-14kD11.justifyCenter-rrurWZ.rolePill-2IJ1vo{
+  border-radius: var(--roles-roundness-calc);
   border: 1px solid var(--themeColor1);
+}
+
+.eventStatusBrand-3D-ae6,
+.text-sm-semibold-3TWn25.eventStatusLabel-1og3vG{
+  color: var(--themeColor2) !important;
+}
+
+.eventStatusBrand-3D-ae6:hover,
+.text-sm-semibold-3TWn25.eventStatusLabel-1og3vG:hover{
+  color: var(--themeColor1) !important;
+}
+
+.role-2TIOKu.flex-3BkGQD.alignCenter-14kD11.rolePill-2IJ1vo{
+  background: transparent;
 }
 
 .topLeft-2inNCc.option-1QI4c9:hover,
@@ -5018,6 +5113,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: rgba(0, 0, 0, .05);
     padding: 8px
 }
+
+
 
 .searchResult-2N9RV4::after,
 .searchResult-2N9RV4::before {
