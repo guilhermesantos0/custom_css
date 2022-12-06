@@ -16,6 +16,8 @@ $$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
 $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 \__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
 */
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+
 .perksModalContentWrapper-3WBPxC,
 .perksModalContentWrapper-3RHugb{
   background-image: var(--backgroundImage);
@@ -88,7 +90,15 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr:hover,
 .divider-AZrXIA,
 .contents-3ca1mk.buttonInner-3aRbcx,
-.feedItemHeader-txJq98{
+.feedItemHeader-txJq98,
+.container-27tlK1,
+.alternateTheme-iFG8-t,
+.inputDefault-3FGxgL.input-2g-os5,
+.valuePropContainer-WkXrIU,
+.optionBox-1UOevl,
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedPremiumWithoutBanner-1yMS1H::before,
+.option-2eIyOn,
+.premiumTrialBadge-pEqntF.premiumTrialAcknowledgedBadge-2QxbU_{
     background-color: var(--backgroundColor) !important;
 }
 
@@ -198,8 +208,31 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .communityInfoPill-2Mll66,
 .userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY > .userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi,
 .container--8P6Tr.existingSubscriberSpacing-3auAAB.card-16VQ8C,
-.member-2gU6Ar.member-48YF_l.container-1oeRFJ.selected-1-Z6gm{
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.selected-1-Z6gm,
+.connectContainer-1hylYM,
+.content-1jQy2l.container-2IKOsH,
+.container-4HqGB3.background-3X6Uak,
+.container-3tKtM_,
+.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3,
+.channelMention.wrapper-1ZcZW-.iconMention-3WxjBe.iconMentionText-1_WCtN.mention.interactive,
+.premiumBackground-34OIdE.background-yH6t2p,
+.upsellContainer-TwfTaF{
     background-color: var(--backgroundCode) !important;
+}
+
+.premiumFeatureBorder-1i95si {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--backgroundCode),var(--backgroundCode)) padding-box,linear-gradient(45deg,hsl(269,calc(var(--saturation-factor, 1)*52.7%),52.7%),hsl(325,calc(var(--saturation-factor, 1)*31.7%),51.8%)) border-box;
+}
+
+.feedItemHeader-txJq98{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.clickableTarget-38GHFo,
+.content-1jQy2l.container-2IKOsH{
+  border-radius: 10px;
 }
 
 .userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY,
@@ -278,7 +311,7 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 }
 
 .contents-3ca1mk.buttonInner-3aRbcx.active-OdlCV-{
-  color: var(--themeColor2);
+  color: var(--themeColor2) !important;
 }
 
 .contents-3ca1mk.buttonInner-3aRbcx.active-OdlCV-:hover{
@@ -396,6 +429,31 @@ canvas.minimap-decorations-layer,
   background: red;
 }
 
+.body-_wLPAC:hover,
+.channelMention.wrapper-1ZcZW-.iconMention-3WxjBe.iconMentionText-1_WCtN.mention.interactive:hover,
+.premiumBackground-34OIdE.background-yH6t2p .profileBadges-31rDHI.containerWithContent-2_V0PM.container-5SvbtF,
+.premiumBackground-34OIdE.background-yH6t2p .userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi.body-3wEtTO,
+.option-2eIyOn.focused-ODgjnC{
+  background: linear-gradient(90deg, #36d1dc36, #5b87e544) !important;
+}
+
+.closeButton-PCZcma,
+.keybind-13vtq8{
+  --backgroundColor: aliceblue !important;
+}
+
+@keyframes backgroundColor {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F,
 .button-3M8h3F.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeMin-DfpWCE.grow-2sR_-F,
 .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F,
@@ -405,7 +463,8 @@ canvas.minimap-decorations-layer,
 .button-3M8h3F.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMin-DfpWCE.grow-2sR_-F,
 .button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.grow-2sR_-F,
 .button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F,
-.applicationInstallButton-1co9qK.button-f2h6uQ.lookFilled-yCfaCM.colorTransparent-13Bvvi.sizeSmall-wU2dO-.grow-2sR_-F{
+.applicationInstallButton-1co9qK.button-f2h6uQ.lookFilled-yCfaCM.colorTransparent-13Bvvi.sizeSmall-wU2dO-.grow-2sR_-F,
+.button-1d_47w.button-f2h6uQ.lookFilled-yCfaCM.buttonColor-1u-3JF.sizeSmall-wU2dO-.fullWidth-fJIsjq.grow-2sR_-F{
     background: linear-gradient(90deg, var(--grey2), var(--grey1));
   }
   
@@ -461,13 +520,8 @@ canvas.minimap-decorations-layer,
 .colorStandard-21JIj7,
 .fontDisplay-3Gtuks,
 .button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_-F,
-.defaultColor-24IHKz.heading-xl-medium-_XBxHT.defaultColor-HXu-5n.title-1_TkpU,
-.defaultColor-24IHKz.text-md-normal-304U3g.text-PdAsFQ,
-.defaultColor-24IHKz.heading-lg-medium-3gUJeM.defaultColor-HXu-5n.footerTitle-3Bslxi,
-.defaultColor-24IHKz.heading-xl-medium-_XBxHT.defaultColor-HXu-5n.title-1LqMUp,
-.defaultColor-24IHKz.heading-md-medium-2DVCeJ.defaultColor-HXu-5n.rowText-3MQqQi,
-.defaultColor-24IHKz.heading-xl-medium-_XBxHT.defaultColor-HXu-5n.title-OdeD-o,
-.defaultColor-24IHKz.heading-xl-medium-_XBxHT.defaultColor-HXu-5n.title-2Giw-4{
+.defaultColor-24IHKz,
+.username-3JLfHz.userTagUsernameNoNickname-2e_xaO.userTagUsernameBase-3Nfr5j{
     color: aliceblue;
 }
 
@@ -475,8 +529,9 @@ canvas.minimap-decorations-layer,
 .inputDefault-3FGxgL,
 .sampleLink-5BWNy9,
 .contents-3ca1mk.lineHeightReset-1WxXXk svg path,
-.contextMenuNub-NuTZ_U.colorable-3rVGna.white-11auuQ svg path{
-    color: white;
+.contextMenuNub-NuTZ_U.colorable-3rVGna.white-11auuQ svg path,
+.text-xs-bold-1NF1lz.optionHeader-27AHfD{
+    color: white !important;
 }
 
 .streamPreviewWrapper-rIrOy5.mounted-2LsfHh .streamPreview-3qoMP4,
@@ -489,7 +544,9 @@ canvas.minimap-decorations-layer,
   background: linear-gradient(90deg, var(--red1), var(--red2))
 }
 
-.shinyButton-2Q9MDB.button-1U79Hubutton-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeMedium-2bFIHr.grow-2sR_-F{
+.shinyButton-2Q9MDB.button-1U79Hubutton-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeMedium-2bFIHr.grow-2sR_-F,
+.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF,
+.actionButton-D1ZvXj.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79.sizeSmall-wU2dO-.grow-2sR_-F{
   background: linear-gradient(90deg, var(--green1), var(--green2));
 }
 
@@ -582,7 +639,7 @@ canvas.minimap-decorations-layer,
 
 :root{
   --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
-
+  
   --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
 }
 .role-2TIOKu {
@@ -3082,7 +3139,7 @@ canvas.minimap-decorations-layer,
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 :root {
-  --customFont: "Open Sans";
+  --customFont: 'Blinker',sans-serif;
 }
 .sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29)::before,
 .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29)::before {
@@ -3143,7 +3200,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 :root {
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
-    --customFont: 'Roboto', sans-serif;
+    --customFont: 'Blinker',sans-serif;
     --font-display: var(--customFont);
     --homeImage: url('https://limeshark.dev/img/bdi/n8h.png');
     --homeImageSize: cover;
@@ -5421,7 +5478,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
   --themeColor2: #5B86E5; /* Theme's color 2 */
 
   /* CUSTOM FONT */
-  --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
+  --customFont: 'Blinker',sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
 
   /* HOME BUTTON */
   --homeImage: url('https://i.imgur.com/9XItyEW.gif');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
