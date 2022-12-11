@@ -223,7 +223,8 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .scrollSection-HnJkHK,
 .userPanelOverlayBackground-3xwDMp.overlayBackground-1KgwVi,
 .container-1PloNW.card-2JNtco.mainCard-3KBsBI,
-.mainCard-3KBsBI{
+.mainCard-3KBsBI,
+.emptyChannelIcon-1YdEz2{
     background-color: var(--backgroundCode) !important;
 }
 
