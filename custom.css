@@ -144,7 +144,8 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 .earningsPreviewContainer-2I6S8Z,
 .avatarCard-1N47yx,
 .viewServerButton-29xbQE.roundedEdges-3ywY40.button-ejjZWC.lookFilled-1H2Jvj.sizeMedium-2oH5mg.grow-2T4nbg,
-.viewServerButton-29xbQE.button-ejjZWC.lookFilled-1H2Jvj.sizeMedium-2oH5mg.grow-2T4nbg{
+.viewServerButton-29xbQE.button-ejjZWC.lookFilled-1H2Jvj.sizeMedium-2oH5mg.grow-2T4nbg,
+.root-1CAIjD{
     background-color: var(--backgroundColor) !important;
 }
 
@@ -348,7 +349,9 @@ div[style="margin-top: 20px; background-color: var(--background-secondary); padd
 .revenueShareBenefitCard-2-y5X0.creatorBenefitCard-174D7Q.card-ErWTld,
 .earningBenefitCard-11JJeF.creatorBenefitCard-174D7Q.card-ErWTld,
 .guildCard-1jXMTG.card-ErWTld,
-.emojisContainer-2aGjbS{
+.emojisContainer-2aGjbS,
+.soundButton-2P2Ua2,
+.keybindHint-2zIIxQ{
     background-color: var(--backgroundCode) !important;
 }
 
@@ -521,7 +524,8 @@ canvas.minimap-decorations-layer,
   background: linear-gradient(90deg, #5b87e56e, #36d1dc60) !important;
 }
 
-.action-3oG-si{
+.action-3oG-si,
+.soundAddButton-1FOn5u{
   background: linear-gradient(90deg, #17223a6e, #12454960) !important;
 }
 
@@ -540,6 +544,7 @@ canvas.minimap-decorations-layer,
 .formNotice-1JW4h2.marginBottom40-fvAlAV.cardPrimary-pAe8Ed.card-2guEcY{
   border: none;
 }
+
 
 .formNotice-1JW4h2.marginBottom40-fvAlAV.cardPrimary-pAe8Ed.card-2guEcY::before{
   content: "";
@@ -577,7 +582,8 @@ canvas.minimap-decorations-layer,
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg.button-1EGGcP,
 .leftTrayIcon-3kMl25.textButton-14fgNw.button-ejjZWC.lookFilled-1H2Jvj.buttonColor-28DXIe.sizeSmall-3R2P2p.grow-2T4nbg,
 .connectionsChecksGroup-_ALevE.connectionsChecksGroupPassed-16h0PT,
-.verifiedRole-2nWDpa.verifiedRoleHasRole-2CPTNi{
+.verifiedRole-2nWDpa.verifiedRoleHasRole-2CPTNi,
+.soundButton-2P2Ua2{
   border: none;
 }
 
@@ -586,7 +592,8 @@ canvas.minimap-decorations-layer,
 .leftTrayIcon-3kMl25.textButton-14fgNw.button-ejjZWC.lookFilled-1H2Jvj.buttonColor-28DXIe.sizeSmall-3R2P2p.grow-2T4nbg::before,
 .connectionsChecksGroup-_ALevE.connectionsChecksGroupPassed-16h0PT::before,
 .verifiedRole-2nWDpa.verifiedRoleHasRole-2CPTNi::before,
-.previewListItem-2VAZ-Y::before{
+.previewListItem-2VAZ-Y::before,
+.soundButton-2P2Ua2::before{
   /* border: 2px solid;
   border-image: linear-gradient(45deg, #36d1dc60, #5b87e56e) 2; */
 
